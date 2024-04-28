@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>kshc</class>
+ <widget class="QDialog" name="kshc">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>428</width>
+    <height>176</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>428</width>
+    <height>176</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>431</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+background-color: rgb(232, 232, 232);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>110</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid;
+		  background-color: transparent;
+		  text-transform: uppercase;
+		  font-size: 14px;
+		  padding: 10px 20px;
+		  font-weight: 300;
+color: white;
+		  border: 0;
+ background-color: #4cc9f0;
+		  -webkit-box-shadow: 10px 10px 99px 6px rgba(76,201,240,1);
+		  -moz-box-shadow: 10px 10px 99px 6px rgba(76,201,240,1);
+		  box-shadow: 10px 10px 99px 6px rgba(76,201,240,1);</string>
+    </property>
+    <property name="text">
+     <string>确认</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>110</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid;
+		  background-color: transparent;
+		  text-transform: uppercase;
+		  font-size: 14px;
+		  padding: 10px 20px;
+		  font-weight: 300;
+color: white;
+		  border: 0;
+ background-color: #4cc9f0;
+		  -webkit-box-shadow: 10px 10px 99px 6px rgba(76,201,240,1);
+		  -moz-box-shadow: 10px 10px 99px 6px rgba(76,201,240,1);
+		  box-shadow: 10px 10px 99px 6px rgba(76,201,240,1);</string>
+    </property>
+    <property name="text">
+     <string>取消</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>71</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;黑体&quot;;</string>
+    </property>
+    <property name="text">
+     <string>当前床位：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>40</y>
+      <width>71</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;黑体&quot;;</string>
+    </property>
+    <property name="text">
+     <string>更换床位：</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_dq">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>51</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_gh">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>50</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
